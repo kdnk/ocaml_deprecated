@@ -8,6 +8,13 @@ let rec sum list = match list with
     [] -> 0
   | first :: rest -> first + sum rest ;;
 
+let rec kaijo list = match list with
+    [] -> 1
+  | first :: rest -> first * kaijo rest ;;
+
+'a' :: 'b' :: 'c'
+
+
 let rec sum list =
 
 
